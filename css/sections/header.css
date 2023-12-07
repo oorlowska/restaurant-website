@@ -18,9 +18,14 @@
     z-index: 1;
     font-size: 24px;
     text-transform: uppercase;
+    text-align: center;
     font-family: var(--playfair-display);
     color: white;
-    opacity: 0.8;
+    /* opacity: 0.8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__logo h4 {
